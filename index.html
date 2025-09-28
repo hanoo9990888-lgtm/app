@@ -1,0 +1,452 @@
+<!-- index.html - الملف الرئيسي (محدث مع لون خط أسود لخانة المناسبات) -->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' ; font-src 'self'; connect-src 'self';">
+    <meta name="referrer" content="no-referrer">
+    <meta name="X-Content-Type-Options" content="nosniff">
+    <meta name="X-Frame-Options" content="DENY">
+    <meta name="X-XSS-Protection" content="1; mode=block">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <title>مصمم صفحات الويب - طلب تصميم</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                    </div>
+                    <h1 class="logo-text">مصمم صفحات الويب</h1>
+                </div>
+                <div class="header-links">
+                    <a href="mailto:joob99ksa2006@gmail.com">joob99ksa2006@gmail.com</a>
+                    <a href="https://instagram.com/programmer_209" target="_blank" class="instagram-link">
+                        <svg class="instagram-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        programmer_209
+                    </a>
+                    <a href="https://wa.me/966595949096" target="_blank" class="whatsapp-link">
+                        <svg class="whatsapp-icon" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        واتساب
+                    </a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <a href="mailto:joob99ksa2006@gmail.com">joob99ksa2006@gmail.com</a>
+                <a href="https://instagram.com/programmer_209" target="_blank">@programmer_209</a>
+                <a href="https://wa.me/966595949096" target="_blank">واتساب: +966 59 594 9096</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">اطلب تصميم صفحة ويب مخصصة</h2>
+            <p class="hero-subtitle">
+                احصل على تصميم فريد ومميز لمناسباتك الخاصة - أعياد الميلاد، المناسبات الوطنية، الأعياد السنوية، أو أي طلب خاص آخر. 
+                تصميماتنا تجمع بين الجمال والأمان والوظيفية.
+            </p>
+        </div>
+    </section>
+
+    <!-- Delivery Info Section -->
+    <section class="delivery-info">
+        <div class="container">
+            <div class="delivery-card">
+                <div class="delivery-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                </div>
+                <h3 class="delivery-title">أين يصل طلبك؟</h3>
+                <p class="delivery-description">
+                    عند إرسالك للطلب، سيتم إرسال جميع التفاصيل مباشرة إليّ على حساباتي الخاصة:
+                </p>
+                <div class="delivery-methods">
+                    <div class="delivery-method">
+                        <div class="method-icon email-icon">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="method-info">
+                            <h4 class="method-title">البريد الإلكتروني الخاص بي</h4>
+                            <p class="method-text">سيتم إرسال طلبك مباشرة إلى: <strong>joob99ksa2006@gmail.com</strong></p>
+                        </div>
+                    </div>
+                    <div class="delivery-method">
+                        <div class="method-icon instagram-icon">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </div>
+                        <div class="method-info">
+                            <h4 class="method-title">حساب الانستقرام الخاص بي</h4>
+                            <p class="method-text">سيتم إرسال طلبك مباشرة إلى: <strong>@programmer_209</strong></p>
+                        </div>
+                    </div>
+                    <div class="delivery-method">
+                        <div class="method-icon whatsapp-icon">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </div>
+                        <div class="method-info">
+                            <h4 class="method-title">رقم واتساب الخاص بي</h4>
+                            <p class="method-text">سيتم إرسال طلبك مباشرة إلى: <strong>+966 59 594 9096</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delivery-note">
+                    <p>سأقوم بمراجعة طلبك والرد عليك خلال 24-48 ساعة عبر نفس وسيلة التواصل التي اخترتها.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Info Section -->
+    <section class="pricing-info">
+        <div class="container">
+            <div class="pricing-card">
+                <div class="pricing-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <h3 class="pricing-title">أسعارنا</h3>
+                <p class="pricing-description">
+                    <strong>المبلغ يعتمد على حسب الطلب</strong> - أقدم أسعاراً تنافسية تناسب متطلباتك وميزانيتك.
+                    بعد استلام طلبك، سأقوم بدراسة التفاصيل وتحديد السعر المناسب بناءً على التعقيد والوقت المطلوب.
+                </p>
+                <div class="payment-method">
+                    <div class="payment-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <p class="payment-text">
+                        <strong>طريقة الدفع: تحويل بنكي</strong> - يتم الدفع عبر التحويل البنكي بعد الاتفاق على السعر النهائي.
+                        سأقوم بإرسال تفاصيل الحساب البنكي بعد تأكيد الطلب.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Cards -->
+    <section>
+        <div class="container">
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon email-icon">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="card-title">تواصل عبر البريد الإلكتروني الخاص بي</h3>
+                    </div>
+                    <p class="card-text">أرسل لي طلبك عبر البريد الإلكتروني للحصول على رد سريع</p>
+                    <a href="mailto:joob99ksa2006@gmail.com" class="card-link">joob99ksa2006@gmail.com</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon instagram-card-icon">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">تواصل عبر حساب الانستقرام الخاص بي</h3>
+                    </div>
+                    <p class="card-text">تواصل معي مباشرة عبر الانستقرام للحصول على رد فوري</p>
+                    <a href="https://instagram.com/programmer_209" target="_blank" class="card-link">@programmer_209</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-icon whatsapp-card-icon">
+                            <svg fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                            </svg>
+                        </div>
+                        <h3 class="card-title">تواصل عبر رقم واتساب الخاص بي</h3>
+                    </div>
+                    <p class="card-text">تواصل معي مباشرة عبر واتساب للحصول على رد فوري</p>
+                    <a href="https://wa.me/966595949096" target="_blank" class="card-link">+966 59 594 9096</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+        <div class="container">
+            <div class="form-container">
+                <div class="form-card">
+                    <h3 class="form-title">أرسل طلبك الآن</h3>
+                    
+                    <form id="requestForm">
+                        <!-- Success Message (Initially Hidden) -->
+                        <div id="successMessage" class="success-message">
+                            <div class="success-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div class="success-content">
+                                <h4>تم إرسال طلبك بنجاح!</h4>
+                                <p id="successContactInfo"></p>
+                                <p>سأقوم بالرد عليك في أقرب وقت ممكن (خلال 24-48 ساعة).</p>
+                            </div>
+                        </div>
+
+                        <!-- Error Message (Initially Hidden) -->
+                        <div id="errorMessage" class="error-message-container" style="display: none;">
+                            <div class="error-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div class="error-content">
+                                <h4>حدث خطأ أثناء إرسال الطلب</h4>
+                                <p>يرجى المحاولة مرة أخرى أو التواصل معي مباشرة عبر وسائل التواصل المتاحة.</p>
+                                <div class="error-actions">
+                                    <a href="mailto:joob99ksa2006@gmail.com" class="error-btn email-btn">
+                                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        </svg>
+                                        إرسال بريد إلكتروني
+                                    </a>
+                                    <a href="https://instagram.com/programmer_209" target="_blank" class="error-btn instagram-btn">
+                                        <svg fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                        </svg>
+                                        إرسال رسالة على الانستقرام
+                                    </a>
+                                    <a href="https://wa.me/966595949096" target="_blank" class="error-btn whatsapp-btn">
+                                        <svg fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                        </svg>
+                                        إرسال رسالة على واتساب
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="name" class="form-label">الاسم الكامل *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="أدخل اسمك الكامل" maxlength="100">
+                            <div id="nameError" class="error-message"></div>
+                        </div>
+
+                        <!-- Preferred Contact Method -->
+                        <div class="form-group">
+                            <label class="form-label">طريقة التواصل المفضلة *</label>
+                            <div class="radio-group">
+                                <label class="radio-option">
+                                    <span>البريد الإلكتروني</span>
+                                    <input type="radio" name="preferredContact" value="email" checked>
+                                </label>
+                                <label class="radio-option">
+                                    <span>الانستقرام</span>
+                                    <input type="radio" name="preferredContact" value="instagram">
+                                </label>
+                                <label class="radio-option">
+                                    <span>واتساب</span>
+                                    <input type="radio" name="preferredContact" value="whatsapp">
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Email Field (Initially Visible) -->
+                        <div class="form-group" id="emailField">
+                            <label for="email" class="form-label">البريد الإلكتروني *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="example@email.com" maxlength="100">
+                            <div id="emailError" class="error-message"></div>
+                        </div>
+
+                        <!-- Instagram Field (Initially Hidden) -->
+                        <div class="form-group" id="instagramField" style="display: none;">
+                            <label for="instagram" class="form-label">اسم حساب الانستقرام *</label>
+                            <div style="position: relative;">
+                                <span style="position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #94a3b8;">@</span>
+                                <input type="text" id="instagram" name="instagram" class="form-control" placeholder="اسم المستخدم بدون @" style="padding-right: 36px;" maxlength="30">
+                            </div>
+                            <div id="instagramError" class="error-message"></div>
+                        </div>
+
+                        <!-- WhatsApp Field (Initially Hidden) -->
+                        <div class="form-group" id="whatsappField" style="display: none;">
+                            <label for="whatsapp" class="form-label">رقم واتساب *</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" class="form-control" placeholder="+966 59 594 9096" maxlength="15">
+                            <div id="whatsappError" class="error-message"></div>
+                        </div>
+
+                        <!-- Occasion Type -->
+                        <div class="form-group">
+                            <label for="occasionType" class="form-label">نوع المناسبة *</label>
+                            <select id="occasionType" name="occasionType" class="form-control occasion-select">
+                                <option value="">اختر نوع المناسبة</option>
+                                <option value="birthday">عيد ميلاد</option>
+                                <option value="national">مناسبة وطنية</option>
+                                <option value="annual">عيد سنوي</option>
+                                <option value="wedding">زفاف</option>
+                                <option value="graduation">تخرج</option>
+                                <option value="custom">طلب خاص</option>
+                            </select>
+                            <div id="occasionTypeError" class="error-message"></div>
+                        </div>
+
+                        <!-- Occasion Date -->
+                        <div class="form-group">
+                            <label for="occasionDate" class="form-label">تاريخ المناسبة *</label>
+                            <input type="date" id="occasionDate" name="occasionDate" class="form-control">
+                            <div id="occasionDateError" class="error-message"></div>
+                        </div>
+
+                        <!-- Budget -->
+                        <div class="form-group">
+                            <label for="budget" class="form-label">الميزانية المتوقعة (اختياري)</label>
+                            <input type="text" id="budget" name="budget" class="form-control" placeholder="الميزانية التي تتوقعها للتصميم (سيتم تحديد السعر النهائي بعد دراسة الطلب)" maxlength="50">
+                            <p class="budget-note">ملاحظة: السعر النهائي يعتمد على متطلبات التصميم وسيتم تحديده بعد دراسة طلبك.</p>
+                        </div>
+
+                        <!-- Description -->
+                        <div class="form-group">
+                            <label for="description" class="form-label">وصف التصميم المطلوب *</label>
+                            <textarea id="description" name="description" class="form-control" placeholder="صف لي التصميم الذي تريده، الألوان المفضلة، العناصر التي تريد تضمينها، أي ملاحظات خاصة..." maxlength="1000"></textarea>
+                            <div id="descriptionError" class="error-message"></div>
+                        </div>
+
+                        <!-- Payment Information -->
+                        <div class="payment-info">
+                            <h4 class="payment-info-title">معلومات الدفع</h4>
+                            <p class="payment-info-text">
+                                <strong>طريقة الدفع: تحويل بنكي</strong><br>
+                                سيتم تحديد السعر النهائي بعد دراسة طلبك وإرسال عرض سعر مفصل.<br>
+                                بعد الموافقة على السعر، سأقوم بإرسال تفاصيل الحساب البنكي لإتمام عملية الدفع.<br>
+                                سأبدأ العمل على التصميم بعد استلام الدفع.
+                            </p>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div style="text-align: center; margin-top: 2rem;">
+                            <button type="submit" id="submitBtn" class="submit-btn">
+                                إرسال الطلب
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p class="contact-info">
+                    للتواصل: 
+                    <a href="mailto:joob99ksa2006@gmail.com" class="contact-link">joob99ksa2006@gmail.com</a> | 
+                    <a href="https://instagram.com/programmer_209" target="_blank" class="contact-link">@programmer_209</a> |
+                    <a href="https://wa.me/966595949096" target="_blank" class="contact-link">+966 59 594 9096</a>
+                </p>
+                <p class="payment-disclaimer">
+                    <strong>ملاحظة:</strong> المبلغ يعتمد على حسب الطلب وطريقة الدفع هي التحويل البنكي فقط.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Security Script - Always load last -->
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuToggle && mobileMenu) {
+                mobileMenuToggle.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('active');
+                    const isExpanded = mobileMenu.classList.contains('active');
+                    mobileMenuToggle.setAttribute('aria-expanded', isExpanded);
+                    
+                    // Change icon based on state
+                    if (isExpanded) {
+                        mobileMenuToggle.innerHTML = `
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        `;
+                    } else {
+                        mobileMenuToggle.innerHTML = `
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        `;
+                    }
+                });
+            }
+        });
+
+        // Additional security measures
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+        
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+        });
+        
+        document.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+        });
+        
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey && e.key === 's') || 
+                (e.ctrlKey && e.key === 'u') || 
+                e.key === 'F12' ||
+                (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+                (e.ctrlKey && e.shiftKey && e.key === 'J') ||
+                (e.ctrlKey && e.shiftKey && e.key === 'C')) {
+                e.preventDefault();
+            }
+        });
+    </script>
+    
+    <!-- Main application script -->
+    <script src="script.js"></script>
+</body>
+</html>
